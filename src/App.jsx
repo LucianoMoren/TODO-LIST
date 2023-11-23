@@ -12,6 +12,11 @@ const defaultTodos = [
   { text: "Ir a buscar a los niños", completed: false },
   { text: "Comprar un arma", completed: true },
   { text: "Usar el arma", completed: false },
+  { text: "Comprar ropa", completed: false },
+  { text: "Pagar la luz", completed: false },
+  { text: "Comprar comida", completed: false },
+  { text: "Comprar comida", completed: false },
+  { text: "Comprar comida", completed: false },
 ];
 
 function App() {

@@ -1,0 +1,14 @@
+.div {
+  display: flex;
+  width: 20rem;
+  justify-content: center;
+  margin: 1rem auto 1rem;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  width: 19rem;
+  padding: 0;
+}

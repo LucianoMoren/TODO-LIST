@@ -1,10 +1,13 @@
 import React from "react";
+import style from "./todocounter.module.css";
 
 function TodoCounter({ total, completed }) {
   return (
-    <h3>
-      Has completed {completed} of {total} tasks
-    </h3>
+    <div className={style.div}>
+      <h3 className={style.title}>
+        Has completed {completed} of {total} tasks
+      </h3>
+    </div>
   );
 }
 

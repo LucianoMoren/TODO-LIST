@@ -1,0 +1,21 @@
+.div {
+  height: 2rem;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: 1rem;
+  background-color: #181819;
+  outline: none;
+  border: none;
+  height: 1.9rem;
+  width: 19rem;
+  border-radius: 0.3rem;
+  padding: 0 0.5rem 0 0.5rem;
+  font-weight: 500;
+  color: #73757c;
+  box-sizing: border-box;
+}
