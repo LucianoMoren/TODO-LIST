@@ -7,6 +7,7 @@
   margin: 0.2rem auto 0.2rem;
   padding: 0;
   width: 19rem;
+  height: 3.5rem;
 }
 
 .p {
@@ -21,6 +22,7 @@
   align-items: center;
   width: 2rem;
   height: 2rem;
+  cursor: pointer;
 }
 
 .check {
@@ -31,7 +33,6 @@
   color: rgb(255, 57, 57);
   font-size: 1.6rem;
 }
-
 .li {
   display: flex;
   justify-content: space-between;

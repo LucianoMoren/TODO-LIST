@@ -1,5 +1,5 @@
 .div {
-  height: 2rem;
+  height: 4rem;
   width: 20rem;
   display: flex;
   align-items: center;
@@ -18,4 +18,5 @@
   font-weight: 500;
   color: #73757c;
   box-sizing: border-box;
+  height: 3.5rem;
 }

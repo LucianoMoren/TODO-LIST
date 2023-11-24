@@ -1,16 +1,19 @@
 .div {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
   margin: 2rem auto 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 19rem;
+  height: 6rem;
+  flex-direction: column;
 }
 .title {
-  font-family: "Sofia Sans Semi Condensed", sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bolder;
   text-align: center;
-  margin: 0 auto;
+  margin: auto auto 0 auto;
+  height: 4rem;
   background: linear-gradient(
     140deg,
     rgba(255, 115, 250, 1) 0%,
@@ -18,4 +21,10 @@
   );
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.subtitle {
+  color: white;
+  margin: 0.5rem auto 0;
+  font-size: 1.3rem;
 }
